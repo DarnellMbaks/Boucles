@@ -36,6 +36,13 @@ class Program
             Console.WriteLine("Voulez-vous continuer ? (écrivez 'oui' pour arrêter)");
             reponse = Console.ReadLine();
         }
+        // deuxieme facon de le faire
+        string answer;
+        do
+        {
+            Console.WriteLine("Voulez-vous sortir de ce programme");
+            answer = Console.ReadLine();
+        }while(answer != "oui");
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
          */
